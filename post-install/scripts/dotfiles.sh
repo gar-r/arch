@@ -4,7 +4,8 @@ set -euo pipefail
 workdir=$1
 
 # oh-my-bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+rm -rf ~/.oh-my-bash
+git clone https://github.com/ohmybash/oh-my-bash.git ~/.oh-my-bash
 
 # copy initial chezmoi config
 chezmoi_conf=$HOME/.config/chezmoi
@@ -14,3 +15,5 @@ cp $workdir/etc/chezmoi.toml $chezmoi_conf/chezmoi.toml
 # apply chezmoi config
 chezmoi init git@github.com:gar-r/dotfiles.git
 chezmoi apply
+
+source ~/.bashrc
