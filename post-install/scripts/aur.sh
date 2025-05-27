@@ -14,7 +14,6 @@ aur_packages=(
     arc-icon-theme
     checkupdates-aur
     heroic-games-launcher-bin
-    mangohud-git
     mkinitcpio-firmware
     neofetch
     neovim-drop-in
