@@ -35,6 +35,9 @@
     },
     "optional_repositories": ["multilib"]
   },
+  "network_config": {
+    "type": "iso"
+  },
   "ntp": true,
   "packages": [
     "acpi",
