@@ -18,5 +18,5 @@ if [[ "$no_secrets" == "false" ]]; then
     sudo "$workdir/scripts/secrets.sh"
 fi
 
-"$workdir/scripts/aur.sh"
 "$workdir/scripts/dotfiles.sh" "$workdir"
+"$workdir/scripts/aur.sh"
