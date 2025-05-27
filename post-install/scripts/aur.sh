@@ -25,7 +25,6 @@ aur_packages=(
     shotman
     swaylock-effects
     shotman
-    wdisplays
 )
 
 yay -S --noconfirm "${aur_packages[@]}"
