@@ -1,9 +1,0 @@
-mkinitcpio-firmware
-checkupdates-aur
-arc-icon-theme
-arc-gtk-theme
-neovim-drop-in
-wdisplays
-swaylock-effects
-shotman
-neofetch
