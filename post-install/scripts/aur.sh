@@ -23,7 +23,6 @@ aur_packages=(
     okki-status
     proton-ge-custom-bin
     shotman
-    sway-audio-idle-inhibit-git
     swaylock-effects
     shotman
 )
