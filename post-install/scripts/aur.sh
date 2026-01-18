@@ -16,6 +16,8 @@ aur_packages=(
     arc-gtk-theme
     arc-icon-theme
     checkupdates-aur
+    cliphist
+    dms-shell-bin
     heroic-games-launcher-bin
     mkinitcpio-firmware
     neofetch
