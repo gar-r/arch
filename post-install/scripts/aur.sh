@@ -13,20 +13,16 @@ rm -rf /tmp/yay
 
 # install AUR packages
 aur_packages=(
-    arc-gtk-theme
-    arc-icon-theme
+    catppuccin-cursors-mocha
+    catppuccin-gtk-theme-mocha
+    catppuccin-plasma-colorscheme-mocha
     checkupdates-aur
     cliphist
     dms-shell-bin
     heroic-games-launcher-bin
     mkinitcpio-firmware
     neofetch
-    neovim-drop-in
-    okki-status
     proton-ge-custom-bin
-    shotman
-    swaylock-effects
-    shotman
 )
 
 yay -S --noconfirm "${aur_packages[@]}"
