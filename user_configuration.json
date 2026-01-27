@@ -59,6 +59,7 @@
     "efibootmgr",
     "fuzzel",
     "fwupd",
+    "fzf",
     "gamemode",
     "gimp",
     "git",
