@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Refresh waybar after pacman update
+When = PostTransaction
+Exec = /usr/bin/pkill -SIGRTMIN+8 waybar

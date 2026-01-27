@@ -20,3 +20,6 @@ fi
 
 "$workdir/scripts/dotfiles.sh" "$workdir"
 "$workdir/scripts/aur.sh"
+
+# install pacman hooks
+sudo "$workdir/scripts/hooks.sh" "$workdir"
