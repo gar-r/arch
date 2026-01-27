@@ -131,6 +131,7 @@
     "wl-clipboard",
     "xdg-desktop-portal",
     "xdg-desktop-portal-gtk",
+    "xdg-desktop-portal-gnome",
     "xorg-xwayland",
     "xwayland-satellite"
   ],
