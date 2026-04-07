@@ -20,10 +20,10 @@ aur_packages=(
     cliphist
     dms-shell-bin
     heroic-games-launcher-bin
+    librewolf-bin
     mkinitcpio-firmware
     neofetch
     proton-ge-custom-bin
-    zen-browser-bin
 )
 
 yay -S --noconfirm "${aur_packages[@]}"
