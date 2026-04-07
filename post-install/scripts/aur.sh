@@ -23,6 +23,7 @@ aur_packages=(
     mkinitcpio-firmware
     neofetch
     proton-ge-custom-bin
+    zen-browser-bin
 )
 
 yay -S --noconfirm "${aur_packages[@]}"
