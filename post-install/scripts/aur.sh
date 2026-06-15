@@ -22,7 +22,6 @@ aur_packages=(
     heroic-games-launcher-bin
     librewolf-bin
     mkinitcpio-firmware
-    neofetch
     proton-ge-custom-bin
 )
 

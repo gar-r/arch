@@ -135,7 +135,8 @@
     "xdg-desktop-portal-gtk",
     "xdg-desktop-portal-gnome",
     "xorg-xwayland",
-    "xwayland-satellite"
+    "xwayland-satellite",
+    "yazi"
   ],
   "parallel_downloads": 5,
   "profile_config": {
